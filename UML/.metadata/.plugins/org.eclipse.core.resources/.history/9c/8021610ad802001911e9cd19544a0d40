@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_OWs_UALKEemHn85mW0JG1A" name="NewModel">
+  <packageImport xmi:id="_UogUkALKEemHn85mW0JG1A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_VWzlAALKEemHn85mW0JG1A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_WroC4ALKEemHn85mW0JG1A" name="map">
+    <packagedElement xmi:type="uml:Class" xmi:id="_bYqZwALKEemHn85mW0JG1A" name="Map" visibility="public">
+      <ownedOperation xmi:id="_nWd2QALPEemHn85mW0JG1A" name="fireAt">
+        <ownedParameter xmi:id="_2dqe4ALPEemHn85mW0JG1A" name="coord" type="_mKXsAALOEemHn85mW0JG1A"/>
+        <ownedParameter xmi:id="_2dqe4QLPEemHn85mW0JG1A" name="damage">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_cobjEALLEemHn85mW0JG1A" name=" " memberEnd="_cobjEQLLEemHn85mW0JG1A _cocKIgLLEemHn85mW0JG1A" navigableOwnedEnd="_cocKIgLLEemHn85mW0JG1A">
+      <ownedEnd xmi:id="_cobjEQLLEemHn85mW0JG1A" name="" type="_bYqZwALKEemHn85mW0JG1A" association="_cobjEALLEemHn85mW0JG1A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cocKIALLEemHn85mW0JG1A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cocKIQLLEemHn85mW0JG1A"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_cocKIgLLEemHn85mW0JG1A" name="" type="_N_nfkALLEemHn85mW0JG1A" aggregation="composite" association="_cobjEALLEemHn85mW0JG1A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cocKIwLLEemHn85mW0JG1A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cocKJALLEemHn85mW0JG1A" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mKXsAALOEemHn85mW0JG1A" name="Coordinates" visibility="public">
+      <ownedAttribute xmi:id="_o6RAwALOEemHn85mW0JG1A" name="X" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o6Rn0ALOEemHn85mW0JG1A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o6Rn0QLOEemHn85mW0JG1A" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xDvCQALOEemHn85mW0JG1A" name="Y" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xDvCQQLOEemHn85mW0JG1A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xDvCQgLOEemHn85mW0JG1A" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_LGD4gALLEemHn85mW0JG1A" name="game_elements">
+    <packagedElement xmi:type="uml:Class" xmi:id="_N_nfkALLEemHn85mW0JG1A" name="AbstractElement" visibility="public" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RszjAALLEemHn85mW0JG1A" name="Ship" visibility="public">
+      <generalization xmi:id="_TuIhkALLEemHn85mW0JG1A" general="_N_nfkALLEemHn85mW0JG1A"/>
+      <ownedOperation xmi:id="_ZfQrUALOEemHn85mW0JG1A" name="attack">
+        <ownedParameter xmi:id="_cpz7wALOEemHn85mW0JG1A" name="Map" type="_bYqZwALKEemHn85mW0JG1A"/>
+        <ownedParameter xmi:id="_ftddgALPEemHn85mW0JG1A" name="coord" type="_mKXsAALOEemHn85mW0JG1A"/>
+      </ownedOperation>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_BaQsIALMEemHn85mW0JG1A" name="Ship" visibility="public">
+        <generalization xmi:id="_BaQsIQLMEemHn85mW0JG1A" general="_N_nfkALLEemHn85mW0JG1A"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_BaQsIgLMEemHn85mW0JG1A" name="Ship" visibility="public">
+          <generalization xmi:id="_BaQsIwLMEemHn85mW0JG1A" general="_N_nfkALLEemHn85mW0JG1A"/>
+        </nestedClassifier>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_tVVv0ALMEemHn85mW0JG1A" name="ShipTypes" visibility="public">
+      <ownedLiteral xmi:id="_uW890ALMEemHn85mW0JG1A" name="PorteAvion">
+        <specification xmi:type="uml:LiteralInteger" xmi:id="_uW9k4ALMEemHn85mW0JG1A"/>
+      </ownedLiteral>
+      <ownedLiteral xmi:id="_5q_d4ALMEemHn85mW0JG1A" name="Croiseur">
+        <specification xmi:type="uml:LiteralInteger" xmi:id="_5rAE8ALMEemHn85mW0JG1A" value="1"/>
+      </ownedLiteral>
+      <ownedLiteral xmi:id="_8GU34ALMEemHn85mW0JG1A" name="Contre_Torpilleur">
+        <specification xmi:type="uml:LiteralInteger" xmi:id="_8GU34QLMEemHn85mW0JG1A" value="2"/>
+      </ownedLiteral>
+      <ownedLiteral xmi:id="_9VSlYALMEemHn85mW0JG1A" name="Sous_Marin">
+        <specification xmi:type="uml:LiteralInteger" xmi:id="_9VSlYQLMEemHn85mW0JG1A" value="3"/>
+      </ownedLiteral>
+      <ownedLiteral xmi:id="_-WSvYALMEemHn85mW0JG1A" name="Torpilleur">
+        <specification xmi:type="uml:LiteralInteger" xmi:id="_-WTWcALMEemHn85mW0JG1A" value="4"/>
+      </ownedLiteral>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_AVGlcALNEemHn85mW0JG1A" name=" " memberEnd="_AVGlcQLNEemHn85mW0JG1A _AVGldALNEemHn85mW0JG1A" navigableOwnedEnd="_AVGldALNEemHn85mW0JG1A">
+      <ownedEnd xmi:id="_AVGlcQLNEemHn85mW0JG1A" name="" type="_RszjAALLEemHn85mW0JG1A" association="_AVGlcALNEemHn85mW0JG1A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AVGlcgLNEemHn85mW0JG1A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AVGlcwLNEemHn85mW0JG1A" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_AVGldALNEemHn85mW0JG1A" name="" type="_tVVv0ALMEemHn85mW0JG1A" aggregation="composite" association="_AVGlcALNEemHn85mW0JG1A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AVHMgALNEemHn85mW0JG1A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AVHMgQLNEemHn85mW0JG1A"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jTurgALNEemHn85mW0JG1A" name="Tile" visibility="public">
+      <ownedAttribute xmi:id="_ANuVoALOEemHn85mW0JG1A" name="resistance" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ANuVoQLOEemHn85mW0JG1A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ANuVogLOEemHn85mW0JG1A" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mrbAEALNEemHn85mW0JG1A" name="  " memberEnd="_mrbAEQLNEemHn85mW0JG1A _mrbAFALNEemHn85mW0JG1A" navigableOwnedEnd="_mrbAFALNEemHn85mW0JG1A">
+      <ownedEnd xmi:id="_mrbAEQLNEemHn85mW0JG1A" name="" type="_RszjAALLEemHn85mW0JG1A" association="_mrbAEALNEemHn85mW0JG1A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mrbAEgLNEemHn85mW0JG1A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mrbAEwLNEemHn85mW0JG1A"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_mrbAFALNEemHn85mW0JG1A" name="" type="_jTurgALNEemHn85mW0JG1A" aggregation="composite" association="_mrbAEALNEemHn85mW0JG1A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mrbAFQLNEemHn85mW0JG1A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mrbAFgLNEemHn85mW0JG1A" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
