@@ -115,7 +115,9 @@
         <ownedParameter xmi:id="_4bPIYQLbEemHn85mW0JG1A" name="damage">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_4bPIYgLbEemHn85mW0JG1A" name="tilecoord" type="_mKXsAALOEemHn85mW0JG1A"/>
+        <ownedParameter xmi:id="_4bPIYgLbEemHn85mW0JG1A" name="idTile">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_JingEALcEemHn85mW0JG1A" name=" " memberEnd="_JioHIALcEemHn85mW0JG1A _JioHIwLcEemHn85mW0JG1A" navigableOwnedEnd="_JioHIwLcEemHn85mW0JG1A">
@@ -174,30 +176,6 @@
       <ownedOperation xmi:id="_Q9soMBGbEemO8IIJZcz9HA" name="TorpedoBoat">
         <ownedParameter xmi:id="_fFwIABGbEemO8IIJZcz9HA" name="Direction"/>
         <ownedParameter xmi:id="_fFwvEBGbEemO8IIJZcz9HA" name="reference" type="_mKXsAALOEemHn85mW0JG1A"/>
-      </ownedOperation>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_w2FVQBHLEemeYLqvMWL76w" name="AbstractBoosted" visibility="public" isAbstract="true">
-      <ownedAttribute xmi:id="_2i68QBHLEemeYLqvMWL76w" name="BaseShip" visibility="private" type="_N_nfkALLEemHn85mW0JG1A">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2i68QRHLEemeYLqvMWL76w" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2i7jUBHLEemeYLqvMWL76w" value="1"/>
-      </ownedAttribute>
-      <interfaceRealization xmi:id="_0-t-kBHLEemeYLqvMWL76w" client="_w2FVQBHLEemeYLqvMWL76w" supplier="_zlGf4ALbEemHn85mW0JG1A" contract="_zlGf4ALbEemHn85mW0JG1A"/>
-      <ownedOperation xmi:id="_8guXcBHLEemeYLqvMWL76w" name="AbstractBoosted">
-        <ownedParameter xmi:id="_B8qbsBHMEemeYLqvMWL76w" name="base" type="_N_nfkALLEemHn85mW0JG1A"/>
-      </ownedOperation>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_JPnr8BHMEemeYLqvMWL76w" name="BoostedShip" visibility="public">
-      <generalization xmi:id="_KhzFgBHMEemeYLqvMWL76w" general="_w2FVQBHLEemeYLqvMWL76w"/>
-      <ownedAttribute xmi:id="_kovZMBHMEemeYLqvMWL76w" name="DamageReduction" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kowAQBHMEemeYLqvMWL76w"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kowAQRHMEemeYLqvMWL76w" value="1"/>
-      </ownedAttribute>
-      <ownedOperation xmi:id="_CrnW8BHNEemeYLqvMWL76w" name="takeDamage">
-        <ownedParameter xmi:id="_CrnW8RHNEemeYLqvMWL76w" name="damage">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_CrnW8hHNEemeYLqvMWL76w" name="tilecoord" type="_mKXsAALOEemHn85mW0JG1A"/>
       </ownedOperation>
     </packagedElement>
   </packagedElement>
