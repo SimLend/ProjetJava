@@ -14,7 +14,6 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_rfMUcBGcEemO8IIJZcz9HA" name="Map"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_I2s_0ALdEemHn85mW0JG1A" name=" " memberEnd="_I2s_0QLdEemHn85mW0JG1A _I2tm4ALdEemHn85mW0JG1A" navigableOwnedEnd="_I2tm4ALdEemHn85mW0JG1A">
       <ownedEnd xmi:id="_I2s_0QLdEemHn85mW0JG1A" name="" type="_bYqZwALKEemHn85mW0JG1A" association="_I2s_0ALdEemHn85mW0JG1A">
@@ -72,11 +71,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RszjAALLEemHn85mW0JG1A" name="AircraftCarrier" visibility="public">
       <generalization xmi:id="_TuIhkALLEemHn85mW0JG1A" general="_N_nfkALLEemHn85mW0JG1A"/>
-      <ownedAttribute xmi:id="_M8i1ABGdEemO8IIJZcz9HA" name="length" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M8i1ARGdEemO8IIJZcz9HA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M8i1AhGdEemO8IIJZcz9HA" value="1"/>
-      </ownedAttribute>
       <ownedOperation xmi:id="_N3noEBGbEemO8IIJZcz9HA" name="AircraftCarrier">
         <ownedParameter xmi:id="_b9jA8BGbEemO8IIJZcz9HA" name="Direction"/>
         <ownedParameter xmi:id="_b9joABGbEemO8IIJZcz9HA" name="reference" type="_mKXsAALOEemHn85mW0JG1A"/>
@@ -94,11 +88,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ANuVoQLOEemHn85mW0JG1A" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ANuVogLOEemHn85mW0JG1A" value="1"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_PREcYBGdEemO8IIJZcz9HA" name="Tile">
-        <ownedParameter xmi:id="_S1DggBGdEemO8IIJZcz9HA" name="resistance">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_UeSAkALVEemHn85mW0JG1A" name=" " memberEnd="_UeSAkQLVEemHn85mW0JG1A _UeSAlALVEemHn85mW0JG1A" navigableOwnedEnd="_UeSAlALVEemHn85mW0JG1A">
       <ownedEnd xmi:id="_UeSAkQLVEemHn85mW0JG1A" name="" type="_jTurgALNEemHn85mW0JG1A" association="_UeSAkALVEemHn85mW0JG1A">
@@ -132,11 +121,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_PIl9MBGaEemO8IIJZcz9HA" name="Cruiser" visibility="public">
       <generalization xmi:id="_VPPLUBGaEemO8IIJZcz9HA" general="_N_nfkALLEemHn85mW0JG1A"/>
-      <ownedAttribute xmi:id="_Me8TABGdEemO8IIJZcz9HA" name="length" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Me8TARGdEemO8IIJZcz9HA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Me8TAhGdEemO8IIJZcz9HA" value="1"/>
-      </ownedAttribute>
       <ownedOperation xmi:id="_O0xM0BGbEemO8IIJZcz9HA" name="Cruiser">
         <ownedParameter xmi:id="_cyPNQBGbEemO8IIJZcz9HA" name="Direction"/>
         <ownedParameter xmi:id="_cyP0UBGbEemO8IIJZcz9HA" name="reference" type="_mKXsAALOEemHn85mW0JG1A"/>
@@ -144,11 +128,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_QKxy8BGaEemO8IIJZcz9HA" name="Destroyer" visibility="public">
       <generalization xmi:id="_qZbbsBGbEemO8IIJZcz9HA" general="_N_nfkALLEemHn85mW0JG1A"/>
-      <ownedAttribute xmi:id="_MFuhwBGdEemO8IIJZcz9HA" name="length" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MFuhwRGdEemO8IIJZcz9HA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MFuhwhGdEemO8IIJZcz9HA" value="1"/>
-      </ownedAttribute>
       <ownedOperation xmi:id="_PegGUBGbEemO8IIJZcz9HA" name="Destroyer">
         <ownedParameter xmi:id="_drhlsBGbEemO8IIJZcz9HA" name="Direction"/>
         <ownedParameter xmi:id="_drhlsRGbEemO8IIJZcz9HA" name="reference" type="_mKXsAALOEemHn85mW0JG1A"/>
@@ -156,11 +135,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_STCf8BGaEemO8IIJZcz9HA" name="Submarine" visibility="public">
       <generalization xmi:id="_rDP0wBGbEemO8IIJZcz9HA" general="_N_nfkALLEemHn85mW0JG1A"/>
-      <ownedAttribute xmi:id="_LgV8wBGdEemO8IIJZcz9HA" name="length" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LgV8wRGdEemO8IIJZcz9HA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LgV8whGdEemO8IIJZcz9HA" value="1"/>
-      </ownedAttribute>
       <ownedOperation xmi:id="_QPeQQBGbEemO8IIJZcz9HA" name="Submarine">
         <ownedParameter xmi:id="_eZT4wBGbEemO8IIJZcz9HA" name="Direction"/>
         <ownedParameter xmi:id="_eZT4wRGbEemO8IIJZcz9HA" name="reference" type="_mKXsAALOEemHn85mW0JG1A"/>
@@ -168,11 +142,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_T7OlwBGaEemO8IIJZcz9HA" name="TorpedoBoat" visibility="public">
       <generalization xmi:id="_razZIBGbEemO8IIJZcz9HA" general="_N_nfkALLEemHn85mW0JG1A"/>
-      <ownedAttribute xmi:id="_F75cwBGdEemO8IIJZcz9HA" name="length" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F75cwRGdEemO8IIJZcz9HA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F76D0BGdEemO8IIJZcz9HA" value="1"/>
-      </ownedAttribute>
       <ownedOperation xmi:id="_Q9soMBGbEemO8IIJZcz9HA" name="TorpedoBoat">
         <ownedParameter xmi:id="_fFwIABGbEemO8IIJZcz9HA" name="Direction"/>
         <ownedParameter xmi:id="_fFwvEBGbEemO8IIJZcz9HA" name="reference" type="_mKXsAALOEemHn85mW0JG1A"/>
