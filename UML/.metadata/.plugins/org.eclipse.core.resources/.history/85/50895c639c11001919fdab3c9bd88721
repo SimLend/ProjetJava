@@ -446,7 +446,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GpO5VxGcEemO8IIJZcz9HA" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_GpO5WBGcEemO8IIJZcz9HA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GpO5WRGcEemO8IIJZcz9HA" x="15" y="11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GpO5WRGcEemO8IIJZcz9HA" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_GpO5URGcEemO8IIJZcz9HA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_GpO5UhGcEemO8IIJZcz9HA" fontName="Segoe UI" fontHeight="8"/>
@@ -865,7 +865,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Association']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_I2wDIALdEemHn85mW0JG1A" name=" " sourceNode="_c3sjkALKEemHn85mW0JG1A" targetNode="_0cI1kALbEemHn85mW0JG1A" beginLabel="[0]" endLabel="[*]">
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_I2wDIALdEemHn85mW0JG1A" name=" " sourceNode="_c3sjkALKEemHn85mW0JG1A" targetNode="_0cI1kALbEemHn85mW0JG1A" beginLabel="[0]" endLabel="[1]">
       <target xmi:type="uml:Association" href="model.uml#_I2s_0ALdEemHn85mW0JG1A"/>
       <semanticElements xmi:type="uml:Association" href="model.uml#_I2s_0ALdEemHn85mW0JG1A"/>
       <semanticElements xmi:type="uml:Property" href="model.uml#_I2tm4ALdEemHn85mW0JG1A"/>

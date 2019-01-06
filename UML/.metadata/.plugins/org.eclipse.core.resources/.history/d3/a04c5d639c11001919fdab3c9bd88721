@@ -21,8 +21,8 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2s_0wLdEemHn85mW0JG1A"/>
       </ownedEnd>
       <ownedEnd xmi:id="_I2tm4ALdEemHn85mW0JG1A" name="" type="_zlGf4ALbEemHn85mW0JG1A" aggregation="composite" association="_I2s_0ALdEemHn85mW0JG1A">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I2tm4QLdEemHn85mW0JG1A"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2tm4gLdEemHn85mW0JG1A" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I2tm4QLdEemHn85mW0JG1A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2tm4gLdEemHn85mW0JG1A" value="1"/>
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_lMhl4ALdEemHn85mW0JG1A" name="MapGrid" visibility="public">

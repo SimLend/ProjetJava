@@ -16,28 +16,16 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_I2s_0ALdEemHn85mW0JG1A" name=" " memberEnd="_I2s_0QLdEemHn85mW0JG1A _I2tm4ALdEemHn85mW0JG1A" navigableOwnedEnd="_I2tm4ALdEemHn85mW0JG1A">
-      <ownedEnd xmi:id="_I2s_0QLdEemHn85mW0JG1A" name="" type="_bYqZwALKEemHn85mW0JG1A" association="_I2s_0ALdEemHn85mW0JG1A">
+      <ownedEnd xmi:id="_I2s_0QLdEemHn85mW0JG1A" name="" type="_lMhl4ALdEemHn85mW0JG1A" association="_I2s_0ALdEemHn85mW0JG1A">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I2s_0gLdEemHn85mW0JG1A"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2s_0wLdEemHn85mW0JG1A"/>
       </ownedEnd>
       <ownedEnd xmi:id="_I2tm4ALdEemHn85mW0JG1A" name="" type="_zlGf4ALbEemHn85mW0JG1A" aggregation="composite" association="_I2s_0ALdEemHn85mW0JG1A">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I2tm4QLdEemHn85mW0JG1A"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2tm4gLdEemHn85mW0JG1A" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I2tm4QLdEemHn85mW0JG1A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2tm4gLdEemHn85mW0JG1A" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_lMhl4ALdEemHn85mW0JG1A" name="MapGrid" visibility="public">
-      <ownedAttribute xmi:id="_6d3vsBGbEemO8IIJZcz9HA" name="width" visibility="private" isStatic="true">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6d3vsRGbEemO8IIJZcz9HA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6d3vshGbEemO8IIJZcz9HA" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_9Sl6EBGbEemO8IIJZcz9HA" name="height" visibility="private" isStatic="true">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9Sl6ERGbEemO8IIJZcz9HA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9Sl6EhGbEemO8IIJZcz9HA" value="1"/>
-      </ownedAttribute>
-      <ownedOperation xmi:id="_OEctsBGcEemO8IIJZcz9HA" name="MapGrid"/>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lMhl4ALdEemHn85mW0JG1A" name="MapGrid" visibility="public"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_TwxrQALeEemHn85mW0JG1A" name=" " memberEnd="_TwxrQQLeEemHn85mW0JG1A _TwxrRALeEemHn85mW0JG1A" navigableOwnedEnd="_TwxrRALeEemHn85mW0JG1A">
       <ownedEnd xmi:id="_TwxrQQLeEemHn85mW0JG1A" name="" type="_bYqZwALKEemHn85mW0JG1A" association="_TwxrQALeEemHn85mW0JG1A">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TwxrQgLeEemHn85mW0JG1A"/>

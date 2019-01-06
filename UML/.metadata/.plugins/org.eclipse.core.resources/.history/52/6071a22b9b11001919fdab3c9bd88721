@@ -16,28 +16,16 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_I2s_0ALdEemHn85mW0JG1A" name=" " memberEnd="_I2s_0QLdEemHn85mW0JG1A _I2tm4ALdEemHn85mW0JG1A" navigableOwnedEnd="_I2tm4ALdEemHn85mW0JG1A">
-      <ownedEnd xmi:id="_I2s_0QLdEemHn85mW0JG1A" name="" type="_bYqZwALKEemHn85mW0JG1A" association="_I2s_0ALdEemHn85mW0JG1A">
+      <ownedEnd xmi:id="_I2s_0QLdEemHn85mW0JG1A" name="" type="_lMhl4ALdEemHn85mW0JG1A" association="_I2s_0ALdEemHn85mW0JG1A">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I2s_0gLdEemHn85mW0JG1A"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2s_0wLdEemHn85mW0JG1A"/>
       </ownedEnd>
       <ownedEnd xmi:id="_I2tm4ALdEemHn85mW0JG1A" name="" type="_zlGf4ALbEemHn85mW0JG1A" aggregation="composite" association="_I2s_0ALdEemHn85mW0JG1A">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I2tm4QLdEemHn85mW0JG1A"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2tm4gLdEemHn85mW0JG1A" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I2tm4QLdEemHn85mW0JG1A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2tm4gLdEemHn85mW0JG1A" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_lMhl4ALdEemHn85mW0JG1A" name="MapGrid" visibility="public">
-      <ownedAttribute xmi:id="_6d3vsBGbEemO8IIJZcz9HA" name="width" visibility="private" isStatic="true">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6d3vsRGbEemO8IIJZcz9HA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6d3vshGbEemO8IIJZcz9HA" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_9Sl6EBGbEemO8IIJZcz9HA" name="height" visibility="private" isStatic="true">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9Sl6ERGbEemO8IIJZcz9HA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9Sl6EhGbEemO8IIJZcz9HA" value="1"/>
-      </ownedAttribute>
-      <ownedOperation xmi:id="_OEctsBGcEemO8IIJZcz9HA" name="MapGrid"/>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lMhl4ALdEemHn85mW0JG1A" name="MapGrid" visibility="public"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_TwxrQALeEemHn85mW0JG1A" name=" " memberEnd="_TwxrQQLeEemHn85mW0JG1A _TwxrRALeEemHn85mW0JG1A" navigableOwnedEnd="_TwxrRALeEemHn85mW0JG1A">
       <ownedEnd xmi:id="_TwxrQQLeEemHn85mW0JG1A" name="" type="_bYqZwALKEemHn85mW0JG1A" association="_TwxrQALeEemHn85mW0JG1A">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TwxrQgLeEemHn85mW0JG1A"/>
@@ -51,30 +39,14 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_LGD4gALLEemHn85mW0JG1A" name="game_elements">
     <packagedElement xmi:type="uml:Class" xmi:id="_N_nfkALLEemHn85mW0JG1A" name="AbstractShip" visibility="public" isAbstract="true">
-      <ownedAttribute xmi:id="_bJVyQBGaEemO8IIJZcz9HA" name="length" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bJVyQRGaEemO8IIJZcz9HA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bJWZUBGaEemO8IIJZcz9HA" value="1"/>
-      </ownedAttribute>
       <interfaceRealization xmi:id="_331gYALbEemHn85mW0JG1A" client="_N_nfkALLEemHn85mW0JG1A" supplier="_zlGf4ALbEemHn85mW0JG1A" contract="_zlGf4ALbEemHn85mW0JG1A"/>
       <ownedOperation xmi:id="_quQiYALYEemHn85mW0JG1A" name="attack">
         <ownedParameter xmi:id="_quQiYQLYEemHn85mW0JG1A" name="Map" type="_bYqZwALKEemHn85mW0JG1A"/>
         <ownedParameter xmi:id="_quQiYgLYEemHn85mW0JG1A" name="coord" type="_mKXsAALOEemHn85mW0JG1A"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_mjVJUBGaEemO8IIJZcz9HA" name="AbstractShip">
-        <ownedParameter xmi:id="_2mqqEBGaEemO8IIJZcz9HA" name="len">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_2mqqERGaEemO8IIJZcz9HA" name="dir" type="_6hNNABGaEemO8IIJZcz9HA"/>
-        <ownedParameter xmi:id="_2mqqEhGaEemO8IIJZcz9HA" name="reference" type="_mKXsAALOEemHn85mW0JG1A"/>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RszjAALLEemHn85mW0JG1A" name="AircraftCarrier" visibility="public">
       <generalization xmi:id="_TuIhkALLEemHn85mW0JG1A" general="_N_nfkALLEemHn85mW0JG1A"/>
-      <ownedOperation xmi:id="_N3noEBGbEemO8IIJZcz9HA" name="AircraftCarrier">
-        <ownedParameter xmi:id="_b9jA8BGbEemO8IIJZcz9HA" name="Direction"/>
-        <ownedParameter xmi:id="_b9joABGbEemO8IIJZcz9HA" name="reference" type="_mKXsAALOEemHn85mW0JG1A"/>
-      </ownedOperation>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_BaQsIALMEemHn85mW0JG1A" name="Ship" visibility="public">
         <generalization xmi:id="_BaQsIQLMEemHn85mW0JG1A" general="_N_nfkALLEemHn85mW0JG1A"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_BaQsIgLMEemHn85mW0JG1A" name="Ship" visibility="public">
@@ -121,31 +93,15 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_PIl9MBGaEemO8IIJZcz9HA" name="Cruiser" visibility="public">
       <generalization xmi:id="_VPPLUBGaEemO8IIJZcz9HA" general="_N_nfkALLEemHn85mW0JG1A"/>
-      <ownedOperation xmi:id="_O0xM0BGbEemO8IIJZcz9HA" name="Cruiser">
-        <ownedParameter xmi:id="_cyPNQBGbEemO8IIJZcz9HA" name="Direction"/>
-        <ownedParameter xmi:id="_cyP0UBGbEemO8IIJZcz9HA" name="reference" type="_mKXsAALOEemHn85mW0JG1A"/>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_QKxy8BGaEemO8IIJZcz9HA" name="Destroyer" visibility="public">
-      <generalization xmi:id="_qZbbsBGbEemO8IIJZcz9HA" general="_N_nfkALLEemHn85mW0JG1A"/>
-      <ownedOperation xmi:id="_PegGUBGbEemO8IIJZcz9HA" name="Destroyer">
-        <ownedParameter xmi:id="_drhlsBGbEemO8IIJZcz9HA" name="Direction"/>
-        <ownedParameter xmi:id="_drhlsRGbEemO8IIJZcz9HA" name="reference" type="_mKXsAALOEemHn85mW0JG1A"/>
-      </ownedOperation>
+      <generalization xmi:id="_VkvhQBGaEemO8IIJZcz9HA" general="_N_nfkALLEemHn85mW0JG1A"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_STCf8BGaEemO8IIJZcz9HA" name="Submarine" visibility="public">
-      <generalization xmi:id="_rDP0wBGbEemO8IIJZcz9HA" general="_N_nfkALLEemHn85mW0JG1A"/>
-      <ownedOperation xmi:id="_QPeQQBGbEemO8IIJZcz9HA" name="Submarine">
-        <ownedParameter xmi:id="_eZT4wBGbEemO8IIJZcz9HA" name="Direction"/>
-        <ownedParameter xmi:id="_eZT4wRGbEemO8IIJZcz9HA" name="reference" type="_mKXsAALOEemHn85mW0JG1A"/>
-      </ownedOperation>
+      <generalization xmi:id="_V2jC8BGaEemO8IIJZcz9HA" general="_N_nfkALLEemHn85mW0JG1A"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_T7OlwBGaEemO8IIJZcz9HA" name="TorpedoBoat" visibility="public">
-      <generalization xmi:id="_razZIBGbEemO8IIJZcz9HA" general="_N_nfkALLEemHn85mW0JG1A"/>
-      <ownedOperation xmi:id="_Q9soMBGbEemO8IIJZcz9HA" name="TorpedoBoat">
-        <ownedParameter xmi:id="_fFwIABGbEemO8IIJZcz9HA" name="Direction"/>
-        <ownedParameter xmi:id="_fFwvEBGbEemO8IIJZcz9HA" name="reference" type="_mKXsAALOEemHn85mW0JG1A"/>
-      </ownedOperation>
+      <generalization xmi:id="_WKBYkBGaEemO8IIJZcz9HA" general="_N_nfkALLEemHn85mW0JG1A"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_4lnwQALXEemHn85mW0JG1A" name="Coordinates">
@@ -160,14 +116,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xDvCQQLOEemHn85mW0JG1A" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xDvCQgLOEemHn85mW0JG1A" value="1"/>
       </ownedAttribute>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Enumeration" xmi:id="_6hNNABGaEemO8IIJZcz9HA" name="Direction" visibility="public">
-      <ownedLiteral xmi:id="_8OWEQBGaEemO8IIJZcz9HA" name="Horizontal">
-        <specification xmi:type="uml:LiteralInteger" xmi:id="_8OWrUBGaEemO8IIJZcz9HA"/>
-      </ownedLiteral>
-      <ownedLiteral xmi:id="_9EJD0BGaEemO8IIJZcz9HA" name="Vertical">
-        <specification xmi:type="uml:LiteralInteger" xmi:id="_9EJD0RGaEemO8IIJZcz9HA" value="1"/>
-      </ownedLiteral>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_8RhaQALXEemHn85mW0JG1A" name="pourscroll"/>
